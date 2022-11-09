@@ -20,7 +20,7 @@ public class generarJson {
             Unmarshaller unmarshaller = context.createUnmarshaller();
             lista = (listaProyectos) unmarshaller.unmarshal(new File("src/main/resources/proyectos.xml"));
 
-            Path archivo = Path.of("targer/proyectos.json");
+            Path archivo = Path.of("target/proyectos.json");
             Gson gson;
             GsonBuilder builder = new GsonBuilder();
             gson = builder.setPrettyPrinting().create();
