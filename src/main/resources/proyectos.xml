@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <proyectos>
-    <proyectos titulo="1">
+    <proyecto>
+        <titulo>FP2 generación de archivos</titulo>
         <participantes>
-            <participante>Alvaro</participante>
+            <participante>Alvaro, Javier, Miguel</participante>
         </participantes>
         <tags>
-            <tag>Informatica</tag>
+            <tag>Java, IntelliJIdea, Archivos</tag>
         </tags>
         <familias>
-            <familia>Informatica</familia>
+            <familia>DAM, Programacion, Gestion de datos</familia>
         </familias>
-        <descripcion>Prueba del proyecto</descripcion>
-        <coordinador>Jorge</coordinador>
+        <descripcion>Este conjunto de clases permiten generar archivos xml y json</descripcion>
+        <coordinador>Miguel</coordinador>
         <valoracion>
-            <comentario>es una mierda</comentario>
-            <puntuacion>4.21</puntuacion>
+            <comentario>Buen proyecto</comentario>
+            <puntuacion>8.3</puntuacion>
         </valoracion>
         <estado>true</estado>
         <visibilidad>true</visibilidad>
-    </proyectos>
+    </proyecto>
 </proyectos>
