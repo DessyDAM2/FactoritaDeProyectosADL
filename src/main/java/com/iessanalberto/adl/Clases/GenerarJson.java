@@ -67,6 +67,7 @@ import java.util.List;
 
     //Metodo para generar Jsons de usuarios
     public static void generarUsuario(){
+       
         File archivo = new File("src/main/resources/usuarios.xml");
         File archivoJson= new File("target/Usuarios.json");
         JAXBContext contexto;
@@ -82,13 +83,9 @@ import java.util.List;
             Gson gson = gsonBuilder.setPrettyPrinting().create();
             if(archivo.exists()) {
                 usuarios = (Usuarios) objetoUnmarshaller.unmarshal(archivo);
-                System.out.println(usuarios.getListaUsuarios().get(0).getNombre());
                 //Marshaller objetoMarshaller=contexto.createMarshaller();
-                for (Usuario lista:usuarios.getListaUsuarios()) {
+                Files.write(archivoJson.toPath(), gson.toJson(usuarios).getBytes());
 
-                    textoAlumno.add(gson.toJson(lista));
-                    Files.write(archivoJson.toPath(), textoAlumno.get(textoAlumno.size()-1).getBytes());
-                }
 
             }
         } catch (JAXBException e) {
