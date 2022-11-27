@@ -1,5 +1,6 @@
-package com.iessanalberto.adl;
+package com.iessanalberto.adl.Clases;
 
+import com.iessanalberto.adl.Clases.Valoracion;
 import jakarta.xml.bind.annotation.*;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.iessanalberto.adl;
+package com.iessanalberto.adl.Clases;
 
 import jakarta.xml.bind.annotation.XmlAttribute;
 import jakarta.xml.bind.annotation.XmlElement;

@@ -1,8 +1,11 @@
 package com.iessanalberto.adl;
 
+import com.iessanalberto.adl.Clases.*;
+
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Principal {
     public static void main(String[] args) {
@@ -17,22 +20,32 @@ public class Principal {
         String coordinador = "Miguel";
         Boolean estado=true;
         Boolean visibilidad=true;
+        //Datos para un usuario
+        Alumno alumno= new Alumno
+            ( "rol1","nombre1", "contraseña","familiaProfesional", "email", new String[]{"gusto1", "gusto12"});
+        alumno.setCentro("centro");
+        List<Usuario> listaUsuarios=new ArrayList<>();
+        listaUsuarios.add(alumno);
+        Usuarios usuarios=new Usuarios();
+        usuarios.setListaUsuarios(listaUsuarios);
 
         //Creacion del proyecto
         Proyecto proyecto = new Proyecto( participantes, tags, familiaImplicadas, titulo, descripcion, coordinador, valoracion,  estado,  visibilidad);
 
         //Se crea el proyecto y se añade a la lista de proyectos
         ListaProyectos listaProyectos=new ListaProyectos();
-        listaProyectos.proyectos.add(proyecto);
+        listaProyectos.addProyectos(proyecto);
 
         //Utilizamos el metodo generarXML con la lista de proyectos para generar el XML
-        GenerarXML estructuraDatosXml = new GenerarXML(listaProyectos);
+        GenerarXML estructuraDatosXml = new GenerarXML();
+        estructuraDatosXml.setListaProyectos(listaProyectos);
+        estructuraDatosXml.setUsuarios(usuarios);
         estructuraDatosXml.generar();
-        GenerarJson generarJson=new GenerarJson(Path.of("src/main/resources/proyectos.xml"));
+        GenerarJson generarJson=new GenerarJson();
         generarJson.generar();
 
         //Otro constructor que permite generar un XML y JSON a la vez
-        /*GenerarJson generarJson=new GenerarJson(new GenerarXML(listaProyectos));
+        /*GenerarJson generarJson=new GenerarJson(estructuraDatosXml);
         generarJson.generar();*/
 
         }

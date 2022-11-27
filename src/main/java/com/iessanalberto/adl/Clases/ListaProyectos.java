@@ -1,5 +1,6 @@
-package com.iessanalberto.adl;
+package com.iessanalberto.adl.Clases;
 
+import com.iessanalberto.adl.Clases.Proyecto;
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
@@ -29,5 +30,8 @@ public class ListaProyectos {
 
     public void setProyectos(ArrayList<Proyecto> proyectos) {
         this.proyectos = proyectos;
+    }
+    public void addProyectos(Proyecto proyecto) {
+        this.proyectos.add(proyecto);
     }
 }
