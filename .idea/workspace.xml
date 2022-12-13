@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b560974-304d-45c1-a90d-fe86e086364b" name="Changes" comment="09/11/2022 13:26">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iessanalberto/adl/Alumnos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iessanalberto/adl/Centros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iessanalberto/adl/Profesores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iessanalberto/adl/generarJSonCentros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0b560974-304d-45c1-a90d-fe86e086364b" name="Changes" comment="commit de centros" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667996818617</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit de centros">
+      <created>1670955001851</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670955001851</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +130,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="09/11/2022 13:07" />
     <MESSAGE value="09/11/2022 13:26" />
-    <option name="LAST_COMMIT_MESSAGE" value="09/11/2022 13:26" />
+    <MESSAGE value="commit de centros" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit de centros" />
   </component>
 </project>
