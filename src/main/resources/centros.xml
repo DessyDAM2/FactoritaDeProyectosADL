@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<centro>
+    <nombre>IES San Alberto</nombre>
+    <proyectos>
+        <proyecto>
+            <titulo>FP2 generación de archivos</titulo>
+            <participantes>
+                <participante>Alvaro, Javier, Miguel</participante>
+            </participantes>
+            <tags>
+                <tag>Java, IntelliJIdea, Archivos</tag>
+            </tags>
+            <familias>
+                <familia>DAM, Programacion, Gestion de datos</familia>
+            </familias>
+            <descripcion>Este conjunto de clases permiten generar archivos xml y json</descripcion>
+            <coordinador>Miguel</coordinador>
+            <valoracion>
+                <comentario>Buen proyecto</comentario>
+                <puntuacion>8.3</puntuacion>
+            </valoracion>
+            <estado>true</estado>
+            <visibilidad>true</visibilidad>
+        </proyecto>
+    </proyectos>
+    <web>a</web>
+    <contacto>1</contacto>
+    <profesor>
+        <rol>rol1</rol>
+        <nombre>nombre1</nombre>
+        <contraseña>contraseña</contraseña>
+        <familiaProfesional>familiaProfesional</familiaProfesional>
+        <email>email</email>
+        <gustos>
+            <gusto>gusto1</gusto>
+            <gusto>gusto12</gusto>
+        </gustos>
+    </profesor>
+    <familia_Profesional>Informatica</familia_Profesional>
+    <alumno>
+        <rol>rol1</rol>
+        <nombre>nombre1</nombre>
+        <contraseña>contraseña</contraseña>
+        <familiaProfesional>familiaProfesional</familiaProfesional>
+        <email>email</email>
+        <gustos>
+            <gusto>gusto1</gusto>
+            <gusto>gusto12</gusto>
+        </gustos>
+        <centro>centro</centro>
+    </alumno>
+</centro>
