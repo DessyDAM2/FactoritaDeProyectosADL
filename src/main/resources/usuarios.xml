@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<usuarios>
+    <usuario>
+        <rol>rol1</rol>
+        <nombre>nombre1</nombre>
+        <contraseña>contraseña</contraseña>
+        <familiaProfesional>familiaProfesional</familiaProfesional>
+        <email>email</email>
+        <gustos>
+            <gusto>gusto1</gusto>
+            <gusto>gusto12</gusto>
+        </gustos>
+    </usuario>
+</usuarios>
